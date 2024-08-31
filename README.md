@@ -41,9 +41,20 @@ In this game, the player controls a car, navigating through a road filled with o
 - **Game Over and Replay:** When a collision is detected, the game stops, and a "Game Over" message is displayed. The player can then choose to replay the game.
 
   Private Sub Game_Over()
-      ' Code to handle game over and stop all timers
+      GameEnd.Visible = True
+        RoadMove.Stop()
+        right.Stop()
+        left.Stop()
+        Race1.Stop()
+        Race2.Stop()
+        Race3.Stop()
+        Race4.Stop()
+        Replay.Visible = True
+        Total.Visible = True
+        Points.Visible = False
+        Total.Text = "TOTAL SCORE : " & score
+        Label1.Visible = False
   End Sub
-  ```
 
 - **Obstacle Movement:** The enemy cars move down the screen at varying speeds. Once they reach the bottom, they reappear at the top in a random position.
 
