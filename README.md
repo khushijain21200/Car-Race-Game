@@ -88,6 +88,9 @@ To run the game locally:
 - **Arrow Keys:** Use the Left and Right arrow keys to move the car.
 
 ### Screenshots
+
+![image](https://github.com/user-attachments/assets/1f5aaa07-7b78-4549-a78e-c02c6f3e1943)
+![image](https://github.com/user-attachments/assets/d921b62a-7871-4e09-8234-1a80848867b9)
 ![image](https://github.com/user-attachments/assets/f6aadff2-7150-4211-96ab-630fde27a31b)
 ![image](https://github.com/user-attachments/assets/21743fbc-6b82-4f11-ae10-681eb1a39723)
 ![image](https://github.com/user-attachments/assets/b3ff7a24-de77-421e-a1b3-61743b47ba98)
